@@ -1,0 +1,61 @@
+{
+    "gcloudAppCommands": [
+        {
+            "browse ": "navigates to project url in default browser"
+        },
+        {
+            "create": "creates an app instance, if one exists already, error thrown: The project [project-id] already contains an App Engine application in region [region-for-app].  You can deploy your application using `gcloud app deploy`"
+        },
+        {
+            "deploy": "deploys the current directory to the app instance based on the app.yaml file at the root of the current directory"
+        },
+        {
+            "describe": "outputs the data for the application, example in output property",
+            "output": {
+                "authDomain": "gmail.com",
+                "codeBucket": "staging.devenv-259801.appspot.com",
+                "databaseType": "CLOUD_DATASTORE",
+                "defaultBucket": "devenv-259801.appspot.com",
+                "defaultHostname": "devenv-259801.appspot.com",
+                "featureSettings": "",
+                "splitHealthChecks": "true",
+                "useContainerOptimizedOs": "true",
+                "gcrDomain": "us.gcr.io",
+                "id": "devenv-259801",
+                "locationId": "us-central",
+                "name": "apps/devenv-259801",
+                "servingStatus": "USER_DISABLED"
+            }
+        },
+        {
+            "open-console": "opens google console to the project selected"
+        },
+        "update",
+        {
+            "versions": "details in gcloudAppVersionsCommands"
+        },
+        {
+            "instances": "details in gcloudAppInstanceCommands"
+        }
+    ],
+    "gcloudAppVersionsCommands": [
+        "gcloud app versions browse",
+        "gcloud app versions delete",
+        "gcloud app versions describe",
+        "gcloud app versions list",
+        "gcloud app versions migrate",
+        {
+            "gcloud app versions start": []
+        },
+        "gcloud app versions sto"
+    ],
+    "gcloudAppInstanceCommands": [
+        "gcloud app instances delete",
+        "gcloud app instances describe",
+        "gcloud app instances disable-debug",
+        "gcloud app instances enable-debug",
+        "gcloud app instances list",
+        "gcloud app instances scp",
+        "gcloud app instances ssh"
+    ]
+}
