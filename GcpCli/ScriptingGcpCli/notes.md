@@ -1,8 +1,20 @@
 # [Scripting GCP CLI Commands](https://cloud.google.com/sdk/docs/scripting-gcloud)
 
+## Enabling the API Service
+
+[Enable in UI](https://console.cloud.google.com/apis/library/clouderrorreporting.googleapis.com?project=devenv-259801)
+
+
+
 ## Creating an API Key
 
 To create an API key, your account must be granted the primitive Editor role (roles/editor) on the current project. 
+[source](https://cloud.google.com/docs/authentication/api-keys#creating_an_api_key)
+[Enable an API](https://cloud.google.com/endpoints/docs/openapi/enable-api)
+
+
+
+
 
 
 
